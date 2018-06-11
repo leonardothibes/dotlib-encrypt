@@ -1,0 +1,48 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotlib.Encryption.Tests", "Dotlib.Encryption.Tests\Dotlib.Encryption.Tests.csproj", "{8A0D5492-05EC-4A33-BD0D-C560A77D5F66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dotlib.Encryption", "Dotlib.Encryption\Dotlib.Encryption.csproj", "{39A87FD9-802D-4EB2-B73E-E9C1DDE4299A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A0D5492-05EC-4A33-BD0D-C560A77D5F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A0D5492-05EC-4A33-BD0D-C560A77D5F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A0D5492-05EC-4A33-BD0D-C560A77D5F66}.Debug|x64.ActiveCfg = Debug|x64
+		{8A0D5492-05EC-4A33-BD0D-C560A77D5F66}.Debug|x64.Build.0 = Debug|x64
+		{8A0D5492-05EC-4A33-BD0D-C560A77D5F66}.Debug|x86.ActiveCfg = Debug|x86
+		{8A0D5492-05EC-4A33-BD0D-C560A77D5F66}.Debug|x86.Build.0 = Debug|x86
+		{8A0D5492-05EC-4A33-BD0D-C560A77D5F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A0D5492-05EC-4A33-BD0D-C560A77D5F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A0D5492-05EC-4A33-BD0D-C560A77D5F66}.Release|x64.ActiveCfg = Release|x64
+		{8A0D5492-05EC-4A33-BD0D-C560A77D5F66}.Release|x64.Build.0 = Release|x64
+		{8A0D5492-05EC-4A33-BD0D-C560A77D5F66}.Release|x86.ActiveCfg = Release|x86
+		{8A0D5492-05EC-4A33-BD0D-C560A77D5F66}.Release|x86.Build.0 = Release|x86
+		{39A87FD9-802D-4EB2-B73E-E9C1DDE4299A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A87FD9-802D-4EB2-B73E-E9C1DDE4299A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A87FD9-802D-4EB2-B73E-E9C1DDE4299A}.Debug|x64.ActiveCfg = Debug|x64
+		{39A87FD9-802D-4EB2-B73E-E9C1DDE4299A}.Debug|x64.Build.0 = Debug|x64
+		{39A87FD9-802D-4EB2-B73E-E9C1DDE4299A}.Debug|x86.ActiveCfg = Debug|x86
+		{39A87FD9-802D-4EB2-B73E-E9C1DDE4299A}.Debug|x86.Build.0 = Debug|x86
+		{39A87FD9-802D-4EB2-B73E-E9C1DDE4299A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A87FD9-802D-4EB2-B73E-E9C1DDE4299A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39A87FD9-802D-4EB2-B73E-E9C1DDE4299A}.Release|x64.ActiveCfg = Release|x64
+		{39A87FD9-802D-4EB2-B73E-E9C1DDE4299A}.Release|x64.Build.0 = Release|x64
+		{39A87FD9-802D-4EB2-B73E-E9C1DDE4299A}.Release|x86.ActiveCfg = Release|x86
+		{39A87FD9-802D-4EB2-B73E-E9C1DDE4299A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal
