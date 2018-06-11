@@ -9,7 +9,23 @@
                 "build",
                 "${workspaceFolder}/Dotlib.Encryption.Tests/Dotlib.Encryption.Tests.csproj"
             ],
-            "problemMatcher": "$msCompile"
+            "problemMatcher": "$msCompile",
+            "group": "build"
+        },
+        {
+            "label": "pack",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "pack",
+                "-c",
+                "Release",
+                "-o",
+                "out",
+                "${workspaceFolder}/Dotlib.Encryption/Dotlib.Encryption.csproj"
+            ],
+            "problemMatcher": "$msCompile",
+            "group": "build"
         }
     ]
 }
