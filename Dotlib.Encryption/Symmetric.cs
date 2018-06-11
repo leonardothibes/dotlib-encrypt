@@ -20,7 +20,7 @@ namespace Dotlib.Encryption
             var objPassword = new PasswordDeriveBytes(passPhrase, null);
             var objKeyBytes = objPassword.GetBytes(256 / 8);
 
-            RijndaelManaged objSymmetricKey = new RijndaelManaged();
+            var objSymmetricKey = new RijndaelManaged();
             objSymmetricKey.Mode = CipherMode.CBC;
 
             var objEncryptor = objSymmetricKey.CreateEncryptor(objKeyBytes, objInitVectorBytes);
