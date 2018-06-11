@@ -4,6 +4,7 @@ Dotlib Encryption
 Biblioteca de criptografia e descriptofrafia.
 
 ## Criptografia simétrica
+--------------------------
 
 ### Critografar uma string
 
@@ -25,5 +26,5 @@ var decrypted = Symmetric.Decrypt(encryptedText, passPhrase);
 
 Referências:
 
- * Criptografai simétrica: https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.symmetricalgorithm?view=netframework-4.7.2
+ * Criptografia simétrica: https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.symmetricalgorithm?view=netframework-4.7.2
  * Criptgrafia assimétrica: https://docs.microsoft.com/en-us/dotnet/api/system.security.cryptography.asymmetricalgorithm?view=netframework-4.7.2
